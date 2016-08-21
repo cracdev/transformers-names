@@ -4,7 +4,7 @@
   "description": "Get random transformers names from 1984 to 2011",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test":"node_modules/mocha/bin/mocha src -w"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,9 @@
   "homepage": "https://github.com/kirev/transformers-names#readme",
   "dependencies": {
     "unique-random-array": "1.0.0"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "3.0.2"
   }
 }
