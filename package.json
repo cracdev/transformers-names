@@ -14,7 +14,7 @@
     "random",
     "transformers"
   ],
-  "author": "kirev",
+  "author": "Andres Castro <andres.ca@gmail.com> (http://kirev.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kirev/transformers-names/issues"
