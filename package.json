@@ -1,11 +1,12 @@
 {
   "name": "transformers-names-full",
   "version": "0.0.0-semantically-released",
-	"description": "Get random transformers names from 1984 to 2011",
+  "description": "Get random transformers names from 1984 to 2011",
   "main": "src/index.js",
   "scripts": {
     "test": "node_modules/mocha/bin/mocha src -w",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "commit": "git-cz",
+		"semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
@@ -26,7 +27,12 @@
   },
   "devDependencies": {
     "chai": "3.5.0",
+    "commitizen": "2.8.6",
+    "cz-conventional-changelog": "1.2.0",
     "mocha": "3.0.2",
     "semantic-release": "^4.3.5"
   }
+	"czConfig": {
+		"path": "node_modules/cz-conventional-changelog"
+	}
 }
