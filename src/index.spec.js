@@ -1,5 +1,5 @@
-var expect = require('chai').expect;
-var transformers = require('./index');
+import {expect} from 'chai'
+import transformers  from './index'
 
 describe('transformers-names-full', function () {
 	describe('all', function () {
