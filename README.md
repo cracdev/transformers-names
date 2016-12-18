@@ -19,9 +19,10 @@ npm install transformers-names-full
 ## Usage
 
 ```javascript
-import transformers from 'transformer-names-full'
-const  allNames =transformers.all;
-const randomName =transformers.random();
+var transformers = require('transformers-names');
+var allNames = transformers.all;
+var randomName = transformers.random();
+var threeRandomNames = transformers.random(3);
 ```
 ## Other
 This library was developed by [me](https://twitter.com/kirev)
