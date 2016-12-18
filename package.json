@@ -1,6 +1,6 @@
 {
   "name": "transformers-names-full",
-  "version": "0.0.0",
+  "version": "0.0.0-semantically-released",
   "description": "Get random transformers names from 1984 to 2011",
   "main": "dist/index.js",
   "scripts": {
