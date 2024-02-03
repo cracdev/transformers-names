@@ -25,4 +25,4 @@ var randomName = transformers.random();
 var threeRandomNames = transformers.random(3);
 ```
 ## Other
-This library was developed by [me](https://twitter.com/kirev)
+This library was developed by [me](https://twitter.com/cracdev)
