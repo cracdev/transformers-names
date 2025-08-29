@@ -37,9 +37,14 @@
     "prepare": "husky",
     "semantic-release": "semantic-release"
   },
+  "release": {
+    "branches": [
+      "master"
+    ]
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kirev/transformers-names.git"
+    "url": "https://github.com/cracdev/transformers-names.git"
   },
   "keywords": [
     "random",
@@ -51,12 +56,12 @@
     "dist",
     "README.md"
   ],
-  "author": "Andres Castro <andres.ca@gmail.com> (http://kirev.com)",
+  "author": "Andres Castro <andres.ca@gmail.com> (http://crac.dev)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kirev/transformers-names/issues"
+    "url": "https://github.com/cracdev/transformers-names/issues"
   },
-  "homepage": "https://github.com/kirev/transformers-names#readme",
+  "homepage": "https://github.com/cracdev/transformers-names#readme",
   "dependencies": {
     "unique-random-array": "^3.0.0"
   },
