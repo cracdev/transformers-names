@@ -1,7 +1,4 @@
-import { createRequire } from 'module'
-import uniqueRandomArray from 'unique-random-array'
-
-const require = createRequire(import.meta.url)
+const uniqueRandomArray = require('unique-random-array')
 const transformersNames = require('./transformers.json')
 
 const getRandomItem = uniqueRandomArray(transformersNames)
@@ -11,7 +8,7 @@ const getRandomItem = uniqueRandomArray(transformersNames)
  * @param {number} [number] - Number of random names to return. If not provided, returns a single name
  * @returns {string|string[]} - A single transformer name or array of names
  */
-export function random(number) {
+function random(number) {
   if (number === undefined) {
     return getRandomItem()
   }
@@ -23,14 +20,8 @@ export function random(number) {
   return randomItems
 }
 
-/**
- * All transformer names
- * @type {string[]}
- */
-export const all = transformersNames
-
-// Default export for backward compatibility
-export default {
+// UMD export
+module.exports = {
   all: transformersNames,
   random,
 }
