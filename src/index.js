@@ -1,8 +1,5 @@
-import { createRequire } from 'module'
 import uniqueRandomArray from 'unique-random-array'
-
-const require = createRequire(import.meta.url)
-const transformersNames = require('./transformers.json')
+import transformersNames from './transformers.json'
 
 const getRandomItem = uniqueRandomArray(transformersNames)
 
