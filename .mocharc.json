@@ -1,0 +1,10 @@
+{
+  "require": ["@babel/register"],
+  "spec": ["src/**/*.spec.js"],
+  "recursive": true,
+  "reporter": "spec",
+  "timeout": 5000,
+  "exit": true,
+  "colors": true,
+  "check-leaks": true
+}
