@@ -115,4 +115,4 @@ MIT
 
 ## Credits
 
-Originally developed by [Andres Castro](https://twitter.com/kirev). Modernized and maintained in 2024.
+Originally developed by [Andres Castro](https://twitter.com/cracdev). Modernized and maintained in 2024.
