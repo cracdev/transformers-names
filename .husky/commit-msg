@@ -1,0 +1,15 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Basic commit message validation
+commit_regex='^(feat|fix|docs|style|refactor|test|chore|perf|ci|build|revert)(\(.+\))?: .{1,50}'
+
+if ! grep -qE "$commit_regex" "$1"; then
+    echo "❌ Invalid commit message format!"
+    echo "✅ Use conventional commit format: <type>[optional scope]: <description>"
+    echo "📝 Examples:"
+    echo "   feat: add new transformer search endpoint"
+    echo "   fix(api): resolve rate limiting issue"
+    echo "   docs: update API documentation"
+    exit 1
+fi
