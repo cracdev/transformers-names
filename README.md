@@ -20,7 +20,7 @@ This package has been completely modernized with:
 ## Installation
 
 ```bash
-npm install transformers-names-full
+npm install @cracdev/transformers-names
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ npm install transformers-names-full
 ### ES Modules (Recommended)
 
 ```javascript
-import transformers, { all, random } from 'transformers-names-full'
+import transformers, { all, random } from '@cracdev/transformers-names'
 
 // Get a random name
 console.log(random()) // 'Optimus Prime'
